@@ -1,0 +1,11 @@
+//Variables: las varias son como una cajita donde se puede almacenar o asignar una palabra, numero, o cualquier dato que vallas a utilizar mas adelante.
+
+
+// Strings: son cadenas de caracteres o lo mas entendido es que lo utlizas para colocar palabras o parrafos en forma de texto.
+
+//Funciones (argumentos, `return`) son utilizadas para utilizar un codigo que esta encerrada por dicha funcion, que quiere decir esto que entre { las variables que estan dentro de esta llave no pueden ser utilizadas por codigo que se encuentren por fuera, esto se le conoce como un scope}, tambien con return retornamos algo que queramos que nos devuelva dicho funcion.
+
+//Declaraciones `if` : las declaraciones son condiciones logicas que debe ser cumplidas para que se de como resultado una respuesta logica como por ejemplo: edad >= 18. si es mayor if tine cedula, si edad < 18 entonces tiene tarjeta de identidad.
+
+//Valores booleanos (`true`, `false`): los valores booleanos son utilizado como resultado de una ejecucion de un codigo que segun la comparacion o operacion de dos o mas varables debe arrojar como unico resultado true y false.
+
