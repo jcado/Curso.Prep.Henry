@@ -1,0 +1,12 @@
+/*El bucle for : es utilizado para poder repetir el numero de veces que queramos 
+un codigo , sin necesidad de repetirlo una y otras vez. 
+simplemetente hasta llegar que una condicion se deje de cumplir hasta ese momento se dejara de ejecutar dicha linea de codigo.*/
+
+/*El simbolo && o and o Y : se utiliza para hacer la comparacion de dos condicones , en las que ambas deben ser verdaderas true si una
+de las dos no se cumple se convierte en true.*/
+
+/* El simbolo || o OR o O: se utiliza para comparar dos o mas condiciones en la que con solo una de las condiciones se cumpla el resultado
+final sera true. */
+
+/* "!" o NOT o NO : es utilizado para negar cualquien condiciones ejemplo !(true) // False  */ 
+
