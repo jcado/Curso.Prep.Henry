@@ -1,4 +1,6 @@
 // No cambies los nombres de las funciones.
+/* Nota: algunos codigos los deje en comentario por que los realice y tienen alguna diferencia pero pasan el 
+testeo en otras cosolas */
 
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
@@ -64,7 +66,18 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
 
-  if(idioma === "aleman") {
+  if(idioma === 'aleman') {
+    return 'Guten Tag!';
+  } else if (idioma === 'mandarin') {
+    return 'Ni Hao!';
+  } else if (idioma === 'ingles') {
+    return 'Hello!';
+  } else {
+    return 'Hola!';
+  }
+}
+
+  /*if(idioma === "aleman") {
      return "Guten Tag!";
   }   
       else if( idioma === "mandarin") {
@@ -77,7 +90,7 @@ function saludo(idioma) {
                 return "Hola!";
               
 
-}
+}*/
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -88,6 +101,20 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
 
+  switch(color) {
+    case "blue":
+      return "This is blue";
+    case "red": 
+      return "This is red";
+    case "green":
+      return "This is green";
+    case "orange":
+      return "This is orange";
+    default: 
+    return "Color not found";
+  }
+}
+/*
   switch (colors) {
     case "blue":
       return "This is blue";
@@ -103,9 +130,9 @@ function colors(color) {
                     break
                 default:
                 return "Color not found";
-}
-}
-
+} 
+} 
+*/
  
 
 function esDiezOCinco(numero) {
@@ -162,8 +189,24 @@ function operadoresLogicos(num1, num2, num3) {
   //ok - 0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
 
-  if(num1 === 0 || num2 === 0 || num3 === 0){
-  return "Error";
+  if(num1 < 0 || num2 < 0 || num3 < 0) {
+    return "Hay negativos";
+  }
+  else if(num1 === 0 || num2 === 0 || num3 === 0) {
+    return "Error";
+  }
+  else if(num1 > 0 && num1 > num2 && num1 > num3) {
+    return "Número 1 es mayor y positivo";
+  }
+  else if(num3 > num1 && num3 > num2) {
+    return num3 + 1;
+  }
+  else {
+    return false;
+  }
+
+  /*if(num1 === 0 || num2 === 0 || num3 === 0){  // este codigo que realice tambien hace lo mismo pero como tiene
+  return "Error";                                   algunas cosas diferentes no pasa el test por eso lo dejo como comentario
   } else if(num1 < 0 || num2 < 0 || num3 < 0) {
     return "Hay negativos";
     } else if(num1 > 0 && num1 > num2 && num1 > num3){
@@ -172,7 +215,7 @@ function operadoresLogicos(num1, num2, num3) {
         else if (num3 > num1 && num3 > num2){
         return num3 + 1;
     }
-    return "false";
+    return "false";*/
 }
 
 
@@ -244,6 +287,15 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var a = numero;
+  var i = 0;
+  do {
+    i = i + 1;
+    a = a + 5;
+  }
+  while(i < 8);
+  return a;
+
 }
 
 
