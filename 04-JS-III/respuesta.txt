@@ -1,0 +1,2 @@
+Los ARRAYS son un conjunto de objetos tipo lista que se pueden recorrer uno a uno segun se vallan necesitando 
+nosotros como programador vamos a utilizarlos muchos por que son listados que se considera de alto nivel 
