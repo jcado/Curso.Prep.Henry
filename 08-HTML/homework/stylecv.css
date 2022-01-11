@@ -7,11 +7,9 @@
 
 .img{
     height: 400px;
-    border-top: 5px blue solid;
-    border-bottom: solid blue 5px;
     display: flex;
-    border-right: 50%;
-
+    align-content: center;
+    justify-content: center;
 }
 
 #titulo{
