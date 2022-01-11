@@ -12,6 +12,7 @@ width: 500px;
 background-color: darkslategrey;
 padding: 50px;
 border: 5px red solid;
+
 }
 
 
@@ -20,3 +21,11 @@ border: 5px red solid;
     font-size: 18px;
     margin: 50px;
 }
+
+.divClass{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: center;
+}
+
